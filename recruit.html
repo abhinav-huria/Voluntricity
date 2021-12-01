@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Volunteers</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="Home">
+        <header class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <img src="https://img.icons8.com/doodle/48/000000/welfare.png" />
+                <span class="ml-3 text-xl"><b>VOLUNTRICITY</b></span>
+                </a>
+                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <a href="index.html" class="mr-5 hover:text-gray-900"><b>HOME</b></a>
+                    <a href="list.html" class="mr-5 hover:text-gray-900"><b>REGISTER</b></a>
+                    <a href="recruit.html" class="mr-5 hover:text-gray-900"><b>RECRUIT</b></a>
+                    <a href="feedback.html" class="mr-5 hover:text-gray-900"><b>FEEDBACK</b></a>
+                </nav>
+            </div>
+        </header>
+        <!-- Recruit TypeForm Embedded Code -->
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/YfkFxAMG?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+        <script>
+            (function() {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = "typef_orm",
+                    b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })()
+        </script>
+</body>
+
+</html>
